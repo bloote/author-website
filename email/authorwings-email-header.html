@@ -46,6 +46,8 @@
              Bar #5C776B · Disc #FFFFFF · "AW" #5C776B · Wordmark #FFFFFF
              Monogram: Arvo 700, 23px (0.48 x disc), tracking 0
              Wordmark: PT Serif 700, 24px, set solid, no tracking
+             Trademark: same 24px — the glyph is drawn at cap height,
+             which is why it needs no <sup> to sit on top
              ============================================================ -->
         <tr>
           <td class="aw-head-pad" align="left" bgcolor="#5C776B"
@@ -65,14 +67,14 @@
                 </td>
 
                 <!-- 9px optical gap (24px at master scale) -->
-                <td width="9" style="width:9px; font-size:1px; line-height:1px;">&nbsp;</td>
+                <td width="9" style="width:9px; min-width:9px; font-size:1px; line-height:1px;">&#8203;</td>
 
                 <!-- "AuthorWings" wordmark -->
                 <td class="aw-word" valign="middle" style="vertical-align:middle;">
                   <span style="font-family:'PT Serif', 'Noto Serif', 'Source Serif 4', Georgia, 'Times New Roman', serif;
                                font-size:24px; font-weight:700; line-height:30px;
                                color:#FFFFFF; letter-spacing:0;
-                               mso-line-height-rule:exactly; white-space:nowrap;">AuthorWings<span style="font-size:11px; line-height:1;">&trade;</span></span>
+                               mso-line-height-rule:exactly; white-space:nowrap;">AuthorWings<span style="font-size:24px; line-height:30px; vertical-align:baseline;">&trade;</span></span>
                 </td>
               </tr>
             </table>
