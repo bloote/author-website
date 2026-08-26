@@ -8,10 +8,21 @@
 <meta name="supported-color-schemes" content="light" />
 <title>AuthorWings &mdash; Email Header</title>
 
-<!-- Arvo Bold = the slab monogram · PT Serif Bold = the transitional wordmark -->
-<link href="https://fonts.googleapis.com/css2?family=Arvo:wght@700&family=PT+Serif:wght@700&display=swap" rel="stylesheet" type="text/css" />
 <style type="text/css">
-  @import url('https://fonts.googleapis.com/css2?family=Arvo:wght@700&family=PT+Serif:wght@700&display=swap');
+  /* Arvo Bold and PT Serif Bold, subset to just the logo's letters and
+     embedded here, so the mark renders correctly with no network call. */
+  @font-face {
+    font-family: 'AW Slab';
+    font-style: normal;
+    font-weight: 700;
+    src: url(data:font/woff2;charset=utf-8;base64,d09GMgABAAAAAAJIAAsAAAAABCwAAAH6AAEBiQAAAAAAAAAAAAAAAAAAAAAAAAAABmAAPBEICoEogR8BNgIkAwwLCAAEIAWCcgcgG1oDIJ6DcbN8NKoo28o+/2UIEd1xRFC/1+29moRSfXEZT9G1+KoZhEVjDEZlMAobiRLYfB9+zb2JCuLSxO1u259XTJNpFMuUJBoirEEivfv9G+AfOLHPd5NvVSTfQ09kLbqXwbbEIgoLPNBwLcH0VHU6cNimzUZIJTI94lC/awbETpby3GgCUCDgem4fG6tgV6atqRdxmO138Q8IKMucENgFJGRsYwlsY5uCpgjJsbYhwM56lxiAEENkIIOGjCm4AFAASaxnzaeoVdwsYkpZoqDEbwOTks6gjCn0iQMhhawK/Xem64Q5c+VOxedT/6myROkwvHxtGyq/ZsdPpvyk74VMfIWmWta8fN5Jmx6kFz9X2szPPdWK6ljymyZ/KSPyuTIpK20GQCBiubZ2avpkhf98CR/w++cH8FeL+1KGYK9/YxhLIOizBRdH440HWmctGHruXNwYrc9M4yxqDGTvON6wBQDIAt0TligCcAGOMHJBknhAtq8VxaYVVB8O39xsBhenKDQ/pwljxhF2sYbEsUuXKk0qu0F+dmVmEZRZdlUoFI8JRLIyTh6UcpRpw0f28p8jiAH57NIkS5Uqm76rQJU6jarWAqJ6qxFOLhOyzRSBiGTHFCOmjRjgMqKAHUGMGuBGUMZNmP1k4iHM5kqWLk5eTUpZ2mgYNQoAAAA=) format('woff2');
+  }
+  @font-face {
+    font-family: 'AW Serif';
+    font-style: normal;
+    font-weight: 700;
+    src: url(data:font/woff2;charset=utf-8;base64,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) format('woff2');
+  }
   body { margin:0 !important; padding:0 !important; width:100% !important; -webkit-text-size-adjust:100%; -ms-text-size-adjust:100%; }
   table { border-collapse:collapse !important; mso-table-lspace:0pt; mso-table-rspace:0pt; }
   @media only screen and (max-width:620px) {
@@ -42,12 +53,12 @@
 
         <!-- ============================================================
              AUTHORWINGS EMAIL HEADER
-             Lockup scaled 0.375 from the 128px master (disc 128 -> 48px)
-             Bar #5C776B · Disc #FFFFFF · "AW" #5C776B · Wordmark #FFFFFF
-             Monogram: Arvo 700, 23px (0.48 x disc), tracking -1px so the
-                       A and W slabs almost touch, as in the logo
+             Bar #5C776B - Disc #FFFFFF - "AW" #5C776B - Wordmark #FFFFFF
+             Monogram: Arvo 700, 24px, tracking -1px, inside the 48px disc
              Wordmark: PT Serif 700, 24px, set solid, no tracking
              Trademark: 13px, raised 7px so its top meets the cap height
+             Both faces are embedded above; Rockwell / PT Serif / Georgia
+             are the fallbacks for clients that strip @font-face.
              ============================================================ -->
         <tr>
           <td class="aw-head-pad" align="left" bgcolor="#5C776B"
@@ -60,8 +71,8 @@
                     style="width:48px; height:48px; background-color:#FFFFFF;
                            border-radius:24px; -webkit-border-radius:24px; -moz-border-radius:24px;
                            text-align:center; vertical-align:middle;
-                           font-family:'Arvo', 'Roboto Slab', 'Zilla Slab', Rockwell, Georgia, serif;
-                           font-size:23px; font-weight:700; line-height:48px;
+                           font-family:'AW Slab', Arvo, 'Roboto Slab', Rockwell, Georgia, serif;
+                           font-size:24px; font-weight:700; line-height:48px;
                            color:#5C776B; letter-spacing:-1px; text-indent:-1px;
                            mso-line-height-rule:exactly;">
                   AW
@@ -72,7 +83,7 @@
 
                 <!-- "AuthorWings" wordmark -->
                 <td class="aw-word" valign="middle" style="vertical-align:middle;">
-                  <span style="font-family:'PT Serif', 'Noto Serif', 'Source Serif 4', Georgia, 'Times New Roman', serif;
+                  <span style="font-family:'AW Serif', 'PT Serif', 'Noto Serif', Georgia, 'Times New Roman', serif;
                                font-size:24px; font-weight:700; line-height:30px;
                                color:#FFFFFF; letter-spacing:0;
                                mso-line-height-rule:exactly; white-space:nowrap;">AuthorWings<span style="font-size:13px; line-height:1; vertical-align:7px; mso-text-raise:7px;">&trade;</span></span>
