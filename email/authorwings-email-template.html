@@ -6,7 +6,7 @@
 <meta name="x-apple-disable-message-reformatting" />
 <meta name="color-scheme" content="light" />
 <meta name="supported-color-schemes" content="light" />
-<title>AuthorWings &mdash; Email Header</title>
+<title>AuthorWings &mdash; Email Template</title>
 
 <style type="text/css">
   /* Zilla Slab Bold and PT Serif Bold, subset to just the logo's letters and
@@ -25,9 +25,10 @@
   }
   body { margin:0 !important; padding:0 !important; width:100% !important; -webkit-text-size-adjust:100%; -ms-text-size-adjust:100%; }
   table { border-collapse:collapse !important; mso-table-lspace:0pt; mso-table-rspace:0pt; }
+  a { color:#5C776B; }
   @media only screen and (max-width:620px) {
     .aw-wrap { width:100% !important; }
-    .aw-head-pad { padding-left:24px !important; padding-right:24px !important; }
+    .aw-head-pad, .aw-pad, .aw-foot-pad { padding-left:24px !important; padding-right:24px !important; }
   }
 </style>
 <!--[if mso]>
@@ -40,6 +41,13 @@
 
 <body style="margin:0; padding:0; background-color:#EFEFEF;">
 
+<!-- PREHEADER: the line shown next to the subject in the inbox. Replace it;
+     it stays hidden inside the email itself. -->
+<div style="display:none; font-size:1px; line-height:1px; max-height:0; max-width:0; opacity:0; overflow:hidden; mso-hide:all; font-family:Georgia,'Times New Roman',Times,serif;">
+  {{ Preview line, about 70 characters }}
+  &#847;&zwnj;&nbsp;&#847;&zwnj;&nbsp;&#847;&zwnj;&nbsp;&#847;&zwnj;&nbsp;&#847;&zwnj;&nbsp;&#847;&zwnj;&nbsp;&#847;&zwnj;&nbsp;&#847;&zwnj;&nbsp;
+</div>
+
 <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="background-color:#EFEFEF;">
   <tr>
     <td align="center" style="padding:24px 12px;">
@@ -49,7 +57,7 @@
       <![endif]-->
 
       <table role="presentation" class="aw-wrap" width="600" cellpadding="0" cellspacing="0" border="0"
-             style="width:600px; max-width:600px;">
+             style="width:600px; max-width:600px; background-color:#FFFFFF;">
 
         <!-- ============================================================
              AUTHORWINGS EMAIL HEADER
@@ -94,6 +102,105 @@
           </td>
         </tr>
         <!-- ==================== END HEADER ==================== -->
+
+        <!-- ============================================================
+             BODY - replace everything inside the {{ }} markers.
+             Copy is set in Georgia rather than the embedded faces:
+             Gmail and Outlook strip @font-face, so Georgia is what keeps
+             the copy looking the same in every client.
+             ============================================================ -->
+        <tr>
+          <td class="aw-pad" align="left"
+              style="padding:32px 34px 8px 34px; font-family:Georgia,'Times New Roman',Times,serif;
+                     font-size:15px; line-height:24px; color:#2B2B2B; mso-line-height-rule:exactly;">
+
+            <p style="margin:0 0 20px 0; font-family:Georgia,'Times New Roman',Times,serif; font-size:15px; line-height:24px; color:#2B2B2B; font-weight:bold;">
+              Hi {{ First name }},
+            </p>
+
+            <p style="margin:0 0 20px 0; font-family:Georgia,'Times New Roman',Times,serif; font-size:15px; line-height:24px; color:#2B2B2B;">
+              {{ Opening line: one sentence on why you are writing. }}
+            </p>
+
+            <p style="margin:0 0 20px 0; font-family:Georgia,'Times New Roman',Times,serif; font-size:15px; line-height:24px; color:#2B2B2B;">
+              {{ Body paragraph. Copy this whole paragraph block for each further paragraph. }}
+            </p>
+
+            <p style="margin:0 0 24px 0; font-family:Georgia,'Times New Roman',Times,serif; font-size:15px; line-height:24px; color:#2B2B2B;">
+              {{ Closing line: the one thing you want them to do next. }}
+            </p>
+
+            <!-- OPTIONAL BUTTON - delete this table when the email has no call to action.
+                 Change the href and the label; the button sizes itself to the text. -->
+            <table role="presentation" cellpadding="0" cellspacing="0" border="0" style="margin:0 0 28px 0;">
+              <tr>
+                <td align="center" bgcolor="#5C776B"
+                    style="background-color:#5C776B; border-radius:4px; -webkit-border-radius:4px;">
+                  <a href="https://authorwings.com/contact/"
+                     style="display:inline-block; padding:13px 26px; font-family:Georgia,'Times New Roman',Times,serif;
+                            font-size:15px; line-height:18px; color:#FFFFFF; text-decoration:none;
+                            border-radius:4px; mso-line-height-rule:exactly;">{{ Button label }}</a>
+                </td>
+              </tr>
+            </table>
+
+            <!-- SIGNATURE -->
+            <p style="margin:0 0 4px 0; font-family:Georgia,'Times New Roman',Times,serif; font-size:15px; line-height:24px; color:#2B2B2B;">
+              Best,
+            </p>
+            <p style="margin:0; font-family:Georgia,'Times New Roman',Times,serif; font-size:15px; line-height:22px; color:#2B2B2B; font-weight:bold;">
+              {{ Sender name }}
+            </p>
+            <p style="margin:0 0 2px 0; font-family:Georgia,'Times New Roman',Times,serif; font-size:14px; line-height:22px; color:#2B2B2B;">
+              {{ Job title }} | AuthorWings
+            </p>
+            <p style="margin:0 0 30px 0; font-family:Georgia,'Times New Roman',Times,serif; font-size:14px; line-height:22px;">
+              <a href="mailto:name@authorwings.com" style="color:#5C776B; text-decoration:none;">{{ name@authorwings.com }}</a>
+            </p>
+
+          </td>
+        </tr>
+        <!-- ==================== END BODY ==================== -->
+
+        <!-- ============================================================
+             FOOTER
+             ============================================================ -->
+        <tr>
+          <td class="aw-foot-pad" style="padding:0 34px;">
+            <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0">
+              <tr><td height="1" style="height:1px; line-height:1px; font-size:1px; background-color:#E3E3E3;">&#8203;</td></tr>
+            </table>
+          </td>
+        </tr>
+
+        <tr>
+          <td class="aw-foot-pad" align="left"
+              style="padding:18px 34px 26px 34px; font-family:Georgia,'Times New Roman',Times,serif;
+                     font-size:12px; line-height:19px; color:#6B6B6B; mso-line-height-rule:exactly;">
+
+            <p style="margin:0 0 6px 0; font-family:Georgia,'Times New Roman',Times,serif; font-size:12px; line-height:19px; color:#3A3A3A;">
+              <span class="aw-word" style="font-family:'AW Serif', 'PT Serif', Georgia, 'Times New Roman', serif; font-weight:bold;">AuthorWings</span>
+              &mdash; crafting and publishing books authors are proud of.
+            </p>
+
+            <p style="margin:0 0 10px 0; font-family:Georgia,'Times New Roman',Times,serif; font-size:11px; line-height:18px; color:#8A8A8A;">
+              <a href="https://authorwings.com/" style="color:#8A8A8A; text-decoration:none;">authorwings.com</a>
+              &nbsp;&middot;&nbsp;
+              <a href="mailto:hello@authorwings.com" style="color:#8A8A8A; text-decoration:none;">hello@authorwings.com</a>
+              &nbsp;&middot;&nbsp;
+              <a href="tel:+17324548871" style="color:#8A8A8A; text-decoration:none;">+1 (732) 454-8871</a>
+            </p>
+
+            <!-- A postal address and a working unsubscribe link are required by
+                 CAN-SPAM on marketing mail. Delete this block for one-to-one replies. -->
+            <p style="margin:0; font-family:Georgia,'Times New Roman',Times,serif; font-size:11px; line-height:18px; color:#A0A0A0;">
+              {{ Street address, City, State ZIP }}<br />
+              <a href="{{ unsubscribe_url }}" style="color:#A0A0A0; text-decoration:underline;">Unsubscribe</a>
+            </p>
+
+          </td>
+        </tr>
+        <!-- ==================== END FOOTER ==================== -->
 
       </table>
 
