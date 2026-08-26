@@ -14,8 +14,8 @@
   @font-face {
     font-family: 'AW Slab';
     font-style: normal;
-    font-weight: 700;
-    src: url(data:font/woff2;charset=utf-8;base64,d09GMgABAAAAAAJIAAsAAAAABCwAAAH6AAEBiQAAAAAAAAAAAAAAAAAAAAAAAAAABmAAPBEICoEogR8BNgIkAwwLCAAEIAWCcgcgG1oDIJ6DcbN8NKoo28o+/2UIEd1xRFC/1+29moRSfXEZT9G1+KoZhEVjDEZlMAobiRLYfB9+zb2JCuLSxO1u259XTJNpFMuUJBoirEEivfv9G+AfOLHPd5NvVSTfQ09kLbqXwbbEIgoLPNBwLcH0VHU6cNimzUZIJTI94lC/awbETpby3GgCUCDgem4fG6tgV6atqRdxmO138Q8IKMucENgFJGRsYwlsY5uCpgjJsbYhwM56lxiAEENkIIOGjCm4AFAASaxnzaeoVdwsYkpZoqDEbwOTks6gjCn0iQMhhawK/Xem64Q5c+VOxedT/6myROkwvHxtGyq/ZsdPpvyk74VMfIWmWta8fN5Jmx6kFz9X2szPPdWK6ljymyZ/KSPyuTIpK20GQCBiubZ2avpkhf98CR/w++cH8FeL+1KGYK9/YxhLIOizBRdH440HWmctGHruXNwYrc9M4yxqDGTvON6wBQDIAt0TligCcAGOMHJBknhAtq8VxaYVVB8O39xsBhenKDQ/pwljxhF2sYbEsUuXKk0qu0F+dmVmEZRZdlUoFI8JRLIyTh6UcpRpw0f28p8jiAH57NIkS5Uqm76rQJU6jarWAqJ6qxFOLhOyzRSBiGTHFCOmjRjgMqKAHUGMGuBGUMZNmP1k4iHM5kqWLk5eTUpZ2mgYNQoAAAA=) format('woff2');
+    font-weight: 400;
+    src: url(data:font/woff2;charset=utf-8;base64,d09GMgABAAAAAAKcAA4AAAAABWAAAAJKAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAGhYbIBwqBmAAPBEICoEYgRsBNgIkAwwLCAAEIAWEJAcgG2gECK4KeDI0njACTkKtFURAUx9GOX27UC0evtb0/d1NiccTqo4n1sBCkfFoRIVBYVrhO1Xu3CXxv1/7nbu72NeG6MUWNX1fFc8MSbNJI1JJhKghUekM+V9c2zyjpLPqZrUGcy13GmgCx5Twz9tTy7QFD5xQYE9pW0/2izLMTYfFV50zEByBOxCgD0AgEkII9EiWira7BycRTQHaAAF6qHJJ3Jzhdi3gQjxtg5L26FgD0mOaBRxNt3GD8hgCaABAAADHRzPDeLVhpuj+p/zHHiCAtJw1gHEySCCDMTKCTZELOiiIpM1MG3DU/lEACNRmEJABHSCDZbAKoABIaKjEP/RCF9ppzSTKin5203f10Fzp5jWzumUNYeNYu6Cf085ofp2/OwzjyGF12Hg3fZf7JBx/r3LfelR/a1rvcs9Fwfy7ZuW54ELk3vnuVLXVc3PDM28atTULECDB5OtB7MpgY9WV5R/4G7qa9v1K67e1o7q8o5MECPhe7tingusQAICcvl1kla686EMgm6MYFoUAAAWBTvNkVGIANRtIoj9IDBELWWNkQZEfq4iQGEfvRFLjzhY3j20+VmYWAaxcqTLV2CQLgbVxMFnDJjisWcdGuAhslI+bjbAhgLUJCrBw8/FjuedqgEe9EiXC2pcUs3Hyc3MQim1wYHuYlYuJWysZ8xTWMKvoX2yc4Cf4hAibWDc3lwA2bI2TwDI8RjMU252ME8yCHNb4lCtW2lYNpgyYMazhhJJSKIpWlcCPTfss/KzcXJi8h5BlJdXOCgA=) format('woff2');
   }
   @font-face {
     font-family: 'AW Serif';
@@ -54,7 +54,11 @@
         <!-- ============================================================
              AUTHORWINGS EMAIL HEADER
              Bar #5C776B - Disc #FFFFFF - "AW" #5C776B - Wordmark #FFFFFF
-             Monogram: Arvo 700, 24px, tracking -1px, inside the 48px disc
+             Monogram: Alfa Slab One, 22px, tracking -0.5px, in the 48px disc.
+                       Chosen over Arvo because the logo's strokes modulate:
+                       the A's left diagonal is thinner than its right, its
+                       apex carries a full slab, and the W's centre peak rises
+                       to cap height. Arvo is monoline and does none of that.
              Wordmark: PT Serif 700, 24px, set solid, no tracking
              Trademark: 13px, raised 7px so its top meets the cap height
              Both faces are embedded above; Rockwell / PT Serif / Georgia
@@ -71,9 +75,9 @@
                     style="width:48px; height:48px; background-color:#FFFFFF;
                            border-radius:24px; -webkit-border-radius:24px; -moz-border-radius:24px;
                            text-align:center; vertical-align:middle;
-                           font-family:'AW Slab', Arvo, 'Roboto Slab', Rockwell, Georgia, serif;
-                           font-size:24px; font-weight:700; line-height:48px;
-                           color:#5C776B; letter-spacing:-1px; text-indent:-1px;
+                           font-family:'AW Slab', 'Alfa Slab One', Rockwell, Georgia, serif;
+                           font-size:22px; font-weight:400; line-height:48px;
+                           color:#5C776B; letter-spacing:-0.5px; text-indent:-0.5px;
                            mso-line-height-rule:exactly;">
                   AW
                 </td>
