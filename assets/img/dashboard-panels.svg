@@ -1,0 +1,100 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1180 760" width="1180" height="760" role="img" aria-label="The AuthorWings dashboard — thirteen panels in one place">
+<defs>
+<clipPath id="dash-clip"><rect width="1180" height="760" rx="16"/></clipPath>
+</defs>
+<g clip-path="url(#dash-clip)">
+<rect width="1180" height="760" fill="#193837"/>
+
+  <path d="M0 16a16 16 0 0 1 16-16h1148a16 16 0 0 1 16 16v30H0Z" fill="#0B2423"/>
+  <circle cx="26" cy="23" r="5.5" fill="#3E5A57"/>
+  <circle cx="46" cy="23" r="5.5" fill="#3E5A57"/>
+  <circle cx="66" cy="23" r="5.5" fill="#3E5A57"/>
+  <rect x="380" y="11" width="420" height="24" rx="12" fill="#0F2F2E"/>
+  <text x="590" y="27" font-family="Inter,system-ui,sans-serif" font-size="12"
+        fill="#7E9694" text-anchor="middle">yourbooks.com/wp-admin</text>
+
+<rect x="0" y="46" width="258" height="714" fill="#0F2F2E"/>
+<text x="26" y="90" font-family="Lora,Georgia,serif" font-size="17" font-weight="600" fill="#EDE7DA">AuthorWings</text>
+<rect x="26" y="106" width="206" height="1" fill="#FFFFFF" opacity=".12"/>
+<rect x="30" y="127" width="14" height="14" rx="3" fill="#8FA3A0" opacity=".55"/>
+<text x="56" y="138" font-family="Inter,system-ui,sans-serif" font-size="13.5" fill="#8FA3A0" font-weight="400">Overview</text>
+<rect x="30" y="169" width="14" height="14" rx="3" fill="#8FA3A0" opacity=".55"/>
+<text x="56" y="180" font-family="Inter,system-ui,sans-serif" font-size="13.5" fill="#8FA3A0" font-weight="400">Books &amp; projects</text>
+<rect x="14" y="202" width="230" height="34" rx="8" fill="#C25937" opacity=".92"/>
+<rect x="30" y="211" width="14" height="14" rx="3" fill="#FFFDF9" opacity=".9"/>
+<text x="56" y="222" font-family="Inter,system-ui,sans-serif" font-size="13.5" fill="#FFFDF9" font-weight="600">Leads</text>
+<rect x="30" y="253" width="14" height="14" rx="3" fill="#8FA3A0" opacity=".55"/>
+<text x="56" y="264" font-family="Inter,system-ui,sans-serif" font-size="13.5" fill="#8FA3A0" font-weight="400">Subscribers</text>
+<rect x="30" y="295" width="14" height="14" rx="3" fill="#8FA3A0" opacity=".55"/>
+<text x="56" y="306" font-family="Inter,system-ui,sans-serif" font-size="13.5" fill="#8FA3A0" font-weight="400">Contact form</text>
+<rect x="30" y="337" width="14" height="14" rx="3" fill="#8FA3A0" opacity=".55"/>
+<text x="56" y="348" font-family="Inter,system-ui,sans-serif" font-size="13.5" fill="#8FA3A0" font-weight="400">Email delivery</text>
+<rect x="30" y="379" width="14" height="14" rx="3" fill="#8FA3A0" opacity=".55"/>
+<text x="56" y="390" font-family="Inter,system-ui,sans-serif" font-size="13.5" fill="#8FA3A0" font-weight="400">Marketing &amp; tracking</text>
+<rect x="30" y="421" width="14" height="14" rx="3" fill="#8FA3A0" opacity=".55"/>
+<text x="56" y="432" font-family="Inter,system-ui,sans-serif" font-size="13.5" fill="#8FA3A0" font-weight="400">AI &amp; SEO</text>
+<rect x="30" y="463" width="14" height="14" rx="3" fill="#8FA3A0" opacity=".55"/>
+<text x="56" y="474" font-family="Inter,system-ui,sans-serif" font-size="13.5" fill="#8FA3A0" font-weight="400">Site assistant</text>
+<rect x="30" y="505" width="14" height="14" rx="3" fill="#8FA3A0" opacity=".55"/>
+<text x="56" y="516" font-family="Inter,system-ui,sans-serif" font-size="13.5" fill="#8FA3A0" font-weight="400">Chat logs</text>
+<rect x="30" y="547" width="14" height="14" rx="3" fill="#8FA3A0" opacity=".55"/>
+<text x="56" y="558" font-family="Inter,system-ui,sans-serif" font-size="13.5" fill="#8FA3A0" font-weight="400">Popups &amp; bar</text>
+<rect x="30" y="589" width="14" height="14" rx="3" fill="#8FA3A0" opacity=".55"/>
+<text x="56" y="600" font-family="Inter,system-ui,sans-serif" font-size="13.5" fill="#8FA3A0" font-weight="400">Redirects</text>
+<rect x="30" y="631" width="14" height="14" rx="3" fill="#8FA3A0" opacity=".55"/>
+<text x="56" y="642" font-family="Inter,system-ui,sans-serif" font-size="13.5" fill="#8FA3A0" font-weight="400">Login &amp; access</text>
+<text x="288" y="96" font-family="Lora,Georgia,serif" font-size="24" font-weight="600" fill="#EDE7DA">Leads</text>
+<rect x="1018" y="72" width="132" height="36" rx="8" fill="#C25937"/>
+<text x="1084" y="96" font-family="Inter,system-ui,sans-serif" font-size="13" font-weight="600" fill="#FFFDF9" text-anchor="middle">Export CSV</text>
+<rect x="288" y="124" width="204" height="92" rx="12" fill="#FFFFFF" opacity=".05"/>
+<rect x="288" y="124" width="204" height="92" rx="12" fill="none" stroke="#FFFFFF" stroke-opacity=".10"/>
+<text x="308" y="170" font-family="Lora,Georgia,serif" font-size="30" font-weight="600" fill="#EDE7DA">142</text>
+<text x="308" y="194" font-family="Inter,system-ui,sans-serif" font-size="12" fill="#8FA3A0">leads this month</text>
+<rect x="508" y="124" width="204" height="92" rx="12" fill="#FFFFFF" opacity=".05"/>
+<rect x="508" y="124" width="204" height="92" rx="12" fill="none" stroke="#FFFFFF" stroke-opacity=".10"/>
+<text x="528" y="170" font-family="Lora,Georgia,serif" font-size="30" font-weight="600" fill="#EDE7DA">1,308</text>
+<text x="528" y="194" font-family="Inter,system-ui,sans-serif" font-size="12" fill="#8FA3A0">subscribers</text>
+<rect x="727" y="124" width="204" height="92" rx="12" fill="#FFFFFF" opacity=".05"/>
+<rect x="727" y="124" width="204" height="92" rx="12" fill="none" stroke="#FFFFFF" stroke-opacity=".10"/>
+<text x="747" y="170" font-family="Lora,Georgia,serif" font-size="30" font-weight="600" fill="#EDE7DA">96</text>
+<text x="747" y="194" font-family="Inter,system-ui,sans-serif" font-size="12" fill="#8FA3A0">assistant chats</text>
+<rect x="946" y="124" width="204" height="92" rx="12" fill="#FFFFFF" opacity=".05"/>
+<rect x="946" y="124" width="204" height="92" rx="12" fill="none" stroke="#FFFFFF" stroke-opacity=".10"/>
+<text x="966" y="170" font-family="Lora,Georgia,serif" font-size="30" font-weight="600" fill="#EDE7DA">0</text>
+<text x="966" y="194" font-family="Inter,system-ui,sans-serif" font-size="12" fill="#8FA3A0">lost to bounces</text>
+<rect x="288" y="242" width="862" height="484" rx="12" fill="#FFFFFF" opacity=".05"/>
+<rect x="288" y="242" width="862" height="484" rx="12" fill="none" stroke="#FFFFFF" stroke-opacity=".10"/>
+<text x="340" y="276" font-family="Inter,system-ui,sans-serif" font-size="11" font-weight="700" letter-spacing="1.4" fill="#8FA3A0">NAME</text>
+<text x="547" y="276" font-family="Inter,system-ui,sans-serif" font-size="11" font-weight="700" letter-spacing="1.4" fill="#8FA3A0">EMAIL</text>
+<text x="805" y="276" font-family="Inter,system-ui,sans-serif" font-size="11" font-weight="700" letter-spacing="1.4" fill="#8FA3A0">SOURCE</text>
+<text x="995" y="276" font-family="Inter,system-ui,sans-serif" font-size="11" font-weight="700" letter-spacing="1.4" fill="#8FA3A0">WHEN</text>
+<rect x="289" y="290" width="860" height="1" fill="#FFFFFF" opacity=".10"/>
+<rect x="289" y="300" width="860" height="38" fill="#C25937" opacity=".10"/>
+<circle cx="1124" cy="318" r="4" fill="#C96C4D"/>
+<text x="340" y="322" font-family="Inter,system-ui,sans-serif" font-size="13" fill="#EDE7DA">Rebecca Hall</text>
+<text x="547" y="322" font-family="Inter,system-ui,sans-serif" font-size="13" fill="#8FA3A0">r.hall@…</text>
+<text x="805" y="322" font-family="Inter,system-ui,sans-serif" font-size="13" fill="#8FA3A0">Free chapter popup</text>
+<text x="995" y="322" font-family="Inter,system-ui,sans-serif" font-size="13" fill="#8FA3A0">4 min ago</text>
+<text x="340" y="366" font-family="Inter,system-ui,sans-serif" font-size="13" fill="#EDE7DA">Tomás Ferrer</text>
+<text x="547" y="366" font-family="Inter,system-ui,sans-serif" font-size="13" fill="#8FA3A0">tomas@…</text>
+<text x="805" y="366" font-family="Inter,system-ui,sans-serif" font-size="13" fill="#8FA3A0">Site assistant</text>
+<text x="995" y="366" font-family="Inter,system-ui,sans-serif" font-size="13" fill="#8FA3A0">1 hr ago</text>
+<text x="340" y="410" font-family="Inter,system-ui,sans-serif" font-size="13" fill="#EDE7DA">Priya Nandakumar</text>
+<text x="547" y="410" font-family="Inter,system-ui,sans-serif" font-size="13" fill="#8FA3A0">priya@…</text>
+<text x="805" y="410" font-family="Inter,system-ui,sans-serif" font-size="13" fill="#8FA3A0">Contact form</text>
+<text x="995" y="410" font-family="Inter,system-ui,sans-serif" font-size="13" fill="#8FA3A0">3 hrs ago</text>
+<text x="340" y="454" font-family="Inter,system-ui,sans-serif" font-size="13" fill="#EDE7DA">Book club, Leeds</text>
+<text x="547" y="454" font-family="Inter,system-ui,sans-serif" font-size="13" fill="#8FA3A0">leeds@…</text>
+<text x="805" y="454" font-family="Inter,system-ui,sans-serif" font-size="13" fill="#8FA3A0">Events page</text>
+<text x="995" y="454" font-family="Inter,system-ui,sans-serif" font-size="13" fill="#8FA3A0">Yesterday</text>
+<text x="340" y="498" font-family="Inter,system-ui,sans-serif" font-size="13" fill="#EDE7DA">Ade Balogun</text>
+<text x="547" y="498" font-family="Inter,system-ui,sans-serif" font-size="13" fill="#8FA3A0">ade@…</text>
+<text x="805" y="498" font-family="Inter,system-ui,sans-serif" font-size="13" fill="#8FA3A0">Footer signup</text>
+<text x="995" y="498" font-family="Inter,system-ui,sans-serif" font-size="13" fill="#8FA3A0">Yesterday</text>
+<text x="340" y="542" font-family="Inter,system-ui,sans-serif" font-size="13" fill="#EDE7DA">Marta Kowalczyk</text>
+<text x="547" y="542" font-family="Inter,system-ui,sans-serif" font-size="13" fill="#8FA3A0">marta@…</text>
+<text x="805" y="542" font-family="Inter,system-ui,sans-serif" font-size="13" fill="#8FA3A0">Manuscript upload</text>
+<text x="995" y="542" font-family="Inter,system-ui,sans-serif" font-size="13" fill="#8FA3A0">2 days ago</text>
+</g>
+<rect x=".5" y=".5" width="1179" height="759" rx="16" fill="none" stroke="#FFFFFF" stroke-opacity=".14"/>
+</svg>

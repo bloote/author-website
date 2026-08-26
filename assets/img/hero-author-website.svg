@@ -1,0 +1,86 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1330 930" width="1330" height="930" role="img" aria-label="An AuthorWings author website shown on a laptop and a phone">
+<defs>
+<clipPath id="hero-desk"><rect x="30" y="46" width="1000" height="700" rx="16"/></clipPath>
+<clipPath id="hero-phone"><rect x="940" y="258" width="330" height="600" rx="38"/></clipPath>
+<linearGradient id="hero-glow" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#5F7A6B" stop-opacity=".20"/><stop offset="1" stop-color="#5F7A6B" stop-opacity="0"/></linearGradient>
+<filter id="hero-shadow" x="-20%" y="-20%" width="140%" height="140%"><feDropShadow dx="0" dy="26" stdDeviation="30" flood-color="#2B3124" flood-opacity=".20"/></filter>
+<filter id="phone-shadow" x="-30%" y="-20%" width="160%" height="140%"><feDropShadow dx="-8" dy="20" stdDeviation="24" flood-color="#2B3124" flood-opacity=".26"/></filter>
+</defs>
+<g filter="url(#hero-shadow)">
+<rect x="30" y="46" width="1000" height="700" rx="16" fill="#FBF7EE"/>
+<g clip-path="url(#hero-desk)">
+<g transform="translate(30,46)">
+
+  <path d="M0 16a16 16 0 0 1 16-16h968a16 16 0 0 1 16 16v30H0Z" fill="#EDE7DC"/>
+  <circle cx="26" cy="23" r="5.5" fill="#CFC5B4"/>
+  <circle cx="46" cy="23" r="5.5" fill="#CFC5B4"/>
+  <circle cx="66" cy="23" r="5.5" fill="#CFC5B4"/>
+  <rect x="290" y="11" width="420" height="24" rx="12" fill="#FBF7F0"/>
+  <text x="500" y="27" font-family="Inter,system-ui,sans-serif" font-size="12"
+        fill="#9E9484" text-anchor="middle">claraveldenbooks.com</text>
+
+<rect x="0" y="46" width="1000" height="654" fill="#FBF7EE"/>
+<rect x="0" y="46" width="1000" height="320" fill="url(#hero-glow)"/>
+<text x="52" y="92" font-family="Lora,Georgia,serif" font-size="24" font-weight="600" fill="#2A2B26">Clara Velden</text>
+<text x="648" y="86" font-family="Inter,system-ui,sans-serif" font-size="13" fill="#6A6A5F">Books</text>
+<text x="712.0" y="86" font-family="Inter,system-ui,sans-serif" font-size="13" fill="#6A6A5F">Essays</text>
+<text x="783.6" y="86" font-family="Inter,system-ui,sans-serif" font-size="13" fill="#6A6A5F">About</text>
+<text x="847.6" y="86" font-family="Inter,system-ui,sans-serif" font-size="13" fill="#6A6A5F">Journal</text>
+<rect x="52" y="118" width="896" height="1" fill="#2A2B26" opacity=".12"/>
+<text x="52" y="166" font-family="Inter,system-ui,sans-serif" font-size="11" font-weight="700" letter-spacing="3" fill="#5F7A6B">NEW NOVEL — OUT NOW</text>
+<text x="52" y="208" font-family="Lora,Georgia,serif" font-size="46" font-weight="600" fill="#2A2B26">The quiet between</text>
+<text x="52" y="262" font-family="Lora,Georgia,serif" font-size="46" font-weight="600" fill="#2A2B26">two winters</text>
+<text x="52" y="324" font-family="Inter,system-ui,sans-serif" font-size="15" fill="#6A6A5F">A novel about the year my mother stopped</text>
+<text x="52" y="349" font-family="Inter,system-ui,sans-serif" font-size="15" fill="#6A6A5F">speaking, and the year she started</text>
+<text x="52" y="374" font-family="Inter,system-ui,sans-serif" font-size="15" fill="#6A6A5F">again.</text>
+<rect x="52" y="421" width="180" height="48" rx="9" fill="#5F7A6B"/>
+<text x="142" y="451" font-family="Inter,system-ui,sans-serif" font-size="15" font-weight="600" fill="#FBF7EE" text-anchor="middle">Read an excerpt</text>
+<rect x="246" y="421" width="150" height="48" rx="9" fill="none" stroke="#2A2B26" stroke-opacity=".22"/>
+<text x="321" y="451" font-family="Inter,system-ui,sans-serif" font-size="15" fill="#6A6A5F" text-anchor="middle">All retailers</text>
+<rect x="650" y="120" width="264" height="396" rx="6" fill="#2A2B26" opacity=".16" transform="translate(14,20)"/>
+<rect x="650" y="120" width="264" height="396" rx="3" fill="#5F7A6B"/><rect x="650" y="120" width="14.5" height="396" fill="#B8D3C1" opacity=".85"/><rect x="692.2" y="357.6" width="132.0" height="2" fill="#B8D3C1"/><text x="692.2" y="223.0" font-family="Lora,Georgia,serif" font-size="30.0" font-weight="600" fill="#F4F1E7">The Quiet</text><text x="692.2" y="258.4" font-family="Lora,Georgia,serif" font-size="30.0" font-weight="600" fill="#F4F1E7">Between Two</text><text x="692.2" y="293.8" font-family="Lora,Georgia,serif" font-size="30.0" font-weight="600" fill="#F4F1E7">Winters</text><text x="692.2" y="421.0" font-family="Inter,system-ui,sans-serif" font-size="15.6" letter-spacing="1.2" fill="#F4F1E7" opacity=".7">CLARA VELDEN</text>
+<rect x="0" y="510" width="1000" height="190" fill="#DCE5DE" opacity=".5"/>
+<text x="52" y="540" font-family="Lora,Georgia,serif" font-size="19" font-weight="600" fill="#2A2B26">The backlist</text>
+<rect x="52" y="554" width="92" height="134" rx="3" fill="#3E4834"/><rect x="52" y="554" width="5.1" height="134" fill="#5F7A6B" opacity=".85"/><rect x="66.7" y="634.4" width="46.0" height="2" fill="#5F7A6B"/><text x="66.7" y="588.8" font-family="Lora,Georgia,serif" font-size="11.5" font-weight="600" fill="#EDE8DC">Salt Hours</text><text x="66.7" y="655.8" font-family="Inter,system-ui,sans-serif" font-size="6.0" letter-spacing="1.2" fill="#EDE8DC" opacity=".7">VELDEN</text>
+<rect x="168" y="554" width="92" height="134" rx="3" fill="#A99B82"/><rect x="168" y="554" width="5.1" height="134" fill="#5F7A6B" opacity=".85"/><rect x="182.7" y="634.4" width="46.0" height="2" fill="#5F7A6B"/><text x="182.7" y="588.8" font-family="Lora,Georgia,serif" font-size="11.5" font-weight="600" fill="#2A2B26">Essays</text><text x="182.7" y="655.8" font-family="Inter,system-ui,sans-serif" font-size="6.0" letter-spacing="1.2" fill="#2A2B26" opacity=".7">VELDEN</text>
+<rect x="284" y="554" width="92" height="134" rx="3" fill="#B8D3C1"/><rect x="284" y="554" width="5.1" height="134" fill="#5F7A6B" opacity=".85"/><rect x="298.7" y="634.4" width="46.0" height="2" fill="#5F7A6B"/><text x="298.7" y="588.8" font-family="Lora,Georgia,serif" font-size="11.5" font-weight="600" fill="#2A2B26">Small</text><text x="298.7" y="602.4" font-family="Lora,Georgia,serif" font-size="11.5" font-weight="600" fill="#2A2B26">Fires</text><text x="298.7" y="655.8" font-family="Inter,system-ui,sans-serif" font-size="6.0" letter-spacing="1.2" fill="#2A2B26" opacity=".7">VELDEN</text>
+<rect x="420" y="554" width="300" height="134" rx="10" fill="#FBF7EE" stroke="#2A2B26" stroke-opacity=".10"/>
+<text x="444" y="590" font-family="Lora,Georgia,serif" font-size="16" font-weight="600" fill="#2A2B26">Free first chapter</text>
+<rect x="444" y="606" width="180" height="34" rx="7" fill="#DCE5DE" opacity=".8"/>
+<rect x="632" y="606" width="46" height="34" rx="7" fill="#5F7A6B"/>
+<text x="458" y="628" font-family="Inter,system-ui,sans-serif" font-size="12" fill="#6A6A5F" opacity=".8">you@email.com</text>
+</g></g>
+<rect x="30.5" y="46.5" width="999" height="699" rx="16" fill="none" stroke="#2A2B26" stroke-opacity=".14"/>
+</g>
+<g filter="url(#phone-shadow)">
+<rect x="930" y="248" width="350" height="620" rx="46" fill="#2A2E28"/>
+<rect x="940" y="258" width="330" height="600" rx="38" fill="#FBF7EE"/>
+<g clip-path="url(#hero-phone)">
+<rect x="940" y="258" width="330" height="200" fill="url(#hero-glow)"/>
+<rect x="1065" y="272" width="80" height="7" rx="3.5" fill="#2A2E28" opacity=".5"/>
+<text x="966" y="324" font-family="Lora,Georgia,serif" font-size="19" font-weight="600" fill="#2A2B26">Clara Velden</text>
+<rect x="1220" y="310" width="24" height="2.5" rx="1.25" fill="#6A6A5F"/>
+<rect x="1220" y="317" width="24" height="2.5" rx="1.25" fill="#6A6A5F"/>
+<rect x="1220" y="324" width="24" height="2.5" rx="1.25" fill="#6A6A5F"/>
+<rect x="966" y="344" width="278" height="1" fill="#2A2B26" opacity=".12"/>
+<text x="966" y="380" font-family="Inter,system-ui,sans-serif" font-size="10" font-weight="700" letter-spacing="2.4" fill="#5F7A6B">OUT NOW</text>
+<text x="966" y="414" font-family="Lora,Georgia,serif" font-size="27" font-weight="600" fill="#2A2B26">The quiet</text>
+<text x="966" y="445" font-family="Lora,Georgia,serif" font-size="27" font-weight="600" fill="#2A2B26">between</text>
+<rect x="966" y="466" width="270" height="7" rx="3.5" fill="#6A6A5F" opacity=".28"/><rect x="966" y="481" width="254" height="7" rx="3.5" fill="#6A6A5F" opacity=".28"/><rect x="966" y="496" width="220" height="7" rx="3.5" fill="#6A6A5F" opacity=".28"/>
+<rect x="966" y="526" width="150" height="42" rx="8" fill="#5F7A6B"/>
+<text x="1041" y="553" font-family="Inter,system-ui,sans-serif" font-size="13" font-weight="600" fill="#FBF7EE" text-anchor="middle">Read an excerpt</text>
+<rect x="966" y="592" width="122" height="182" rx="3" fill="#5F7A6B"/><rect x="966" y="592" width="6.7" height="182" fill="#B8D3C1" opacity=".85"/><rect x="985.5" y="701.2" width="61.0" height="2" fill="#B8D3C1"/><text x="985.5" y="639.3" font-family="Lora,Georgia,serif" font-size="15.2" font-weight="600" fill="#F4F1E7">The Quiet</text><text x="985.5" y="657.3" font-family="Lora,Georgia,serif" font-size="15.2" font-weight="600" fill="#F4F1E7">Between</text><text x="985.5" y="675.3" font-family="Lora,Georgia,serif" font-size="15.2" font-weight="600" fill="#F4F1E7">Two</text><text x="985.5" y="730.3" font-family="Inter,system-ui,sans-serif" font-size="7.9" letter-spacing="1.2" fill="#F4F1E7" opacity=".7">CLARA VELDEN</text>
+<rect x="1104" y="592" width="140" height="182" rx="10" fill="#DCE5DE" opacity=".5"/>
+<text x="1122" y="624" font-family="Lora,Georgia,serif" font-size="14" font-weight="600" fill="#2A2B26">Free chapter</text>
+<rect x="1122" y="638" width="96" height="6" rx="3.5" fill="#6A6A5F" opacity=".3"/><rect x="1122" y="651" width="76" height="6" rx="3.5" fill="#6A6A5F" opacity=".3"/>
+<rect x="1122" y="674" width="104" height="34" rx="7" fill="#FBF7EE"/>
+<rect x="1122" y="716" width="104" height="34" rx="7" fill="#5F7A6B"/>
+<text x="1174" y="738" font-family="Inter,system-ui,sans-serif" font-size="12" font-weight="600" fill="#FBF7EE" text-anchor="middle">Send it</text>
+<rect x="940" y="802" width="330" height="56" fill="#DCE5DE" opacity=".55"/>
+<text x="996" y="836" font-family="Inter,system-ui,sans-serif" font-size="12" fill="#6A6A5F" text-anchor="middle">Books</text>
+<text x="1102" y="836" font-family="Inter,system-ui,sans-serif" font-size="12" fill="#6A6A5F" text-anchor="middle">About</text>
+<text x="1208" y="836" font-family="Inter,system-ui,sans-serif" font-size="12" fill="#6A6A5F" text-anchor="middle">List</text>
+</g>
+<rect x="940" y="258" width="330" height="600" rx="38" fill="none" stroke="#2A2E28" stroke-opacity=".35"/>
+</g>
+</svg>

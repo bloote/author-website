@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 920" width="1280" height="920" role="img" aria-label="A. K. Marsh author website — Direct-sales store">
+<defs>
+<clipPath id="clip-epic-fantasy"><rect x="0" y="0" width="1280" height="920" rx="18"/></clipPath>
+<linearGradient id="glow-epic-fantasy" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#C9A227" stop-opacity=".18"/><stop offset="1" stop-color="#C9A227" stop-opacity="0"/></linearGradient>
+</defs>
+<g clip-path="url(#clip-epic-fantasy)">
+<rect width="1280" height="920" fill="#191428"/>
+
+  <path d="M0 18a18 18 0 0 1 18-18h1244a18 18 0 0 1 18 18v32H0Z" fill="#2E2545"/>
+  <circle cx="26" cy="25" r="5.5" fill="#59616E"/>
+  <circle cx="46" cy="25" r="5.5" fill="#59616E"/>
+  <circle cx="66" cy="25" r="5.5" fill="#59616E"/>
+  <rect x="430" y="13" width="420" height="24" rx="12" fill="#1B2129"/>
+  <text x="640" y="29" font-family="Inter,system-ui,sans-serif" font-size="12"
+        fill="#8A93A0" text-anchor="middle">thorncrownsaga.com</text>
+
+<rect x="0" y="50" width="1280" height="870" fill="#191428"/>
+<rect x="0" y="50" width="1280" height="360" fill="url(#glow-epic-fantasy)"/>
+<text x="64" y="102" font-family="Lora,Georgia,serif" font-size="26" font-weight="600" fill="#F3EEE2" letter-spacing=".5">A. K. Marsh</text>
+<text x="880" y="96" font-family="Inter,system-ui,sans-serif" font-size="14" fill="#A79BC0">The Saga</text>
+<text x="978" y="96" font-family="Inter,system-ui,sans-serif" font-size="14" fill="#A79BC0">The World</text>
+<text x="1084" y="96" font-family="Inter,system-ui,sans-serif" font-size="14" fill="#A79BC0">Store</text>
+<text x="1158" y="96" font-family="Inter,system-ui,sans-serif" font-size="14" fill="#A79BC0">Map</text>
+<rect x="64" y="132" width="1152" height="1" fill="#F3EEE2" opacity=".12"/>
+<text x="64" y="174" font-family="Inter,system-ui,sans-serif" font-size="12" font-weight="700" letter-spacing="3" fill="#C9A227">DIRECT-SALES STORE</text>
+<text x="64" y="220" font-family="Lora,Georgia,serif" font-size="54" font-weight="600" fill="#F3EEE2">Six kingdoms.</text>
+<text x="64" y="282" font-family="Lora,Georgia,serif" font-size="54" font-weight="600" fill="#F3EEE2">One borrowed crown.</text>
+<text x="64" y="356" font-family="Inter,system-ui,sans-serif" font-size="17" fill="#A79BC0">The Thorncrown Saga, direct from the author —</text>
+<text x="64" y="384" font-family="Inter,system-ui,sans-serif" font-size="17" fill="#A79BC0">signed hardbacks, ebooks, and the audio</text>
+<text x="64" y="412" font-family="Inter,system-ui,sans-serif" font-size="17" fill="#A79BC0">boxset.</text>
+<rect x="64" y="466" width="202" height="52" rx="10" fill="#C9A227"/>
+<text x="165" y="498" font-family="Inter,system-ui,sans-serif" font-size="16" font-weight="600" fill="#191428" text-anchor="middle">Visit the store</text>
+<rect x="280" y="466" width="150" height="52" rx="10" fill="none" stroke="#F3EEE2" stroke-opacity=".22"/>
+<text x="356" y="498" font-family="Inter,system-ui,sans-serif" font-size="16" fill="#A79BC0" text-anchor="middle">All retailers</text>
+<rect x="912" y="168" width="300" height="450" rx="6" fill="#F3EEE2" opacity=".16"/>
+<rect x="896" y="146" width="300" height="450" rx="3" fill="#2A2140"/><rect x="896" y="146" width="16.5" height="450" fill="#C9A227" opacity=".85"/><rect x="944.0" y="416.0" width="150.0" height="2" fill="#C9A227"/><text x="944.0" y="263.0" font-family="Lora,Georgia,serif" font-size="30.0" font-weight="600" fill="#F3EEE2">The Borrowed</text><text x="944.0" y="298.4" font-family="Lora,Georgia,serif" font-size="30.0" font-weight="600" fill="#F3EEE2">Crown</text><text x="944.0" y="488.0" font-family="Inter,system-ui,sans-serif" font-size="15.6" letter-spacing="1.2" fill="#F3EEE2" opacity=".7">A. K. MARSH</text>
+<rect x="0" y="656" width="1280" height="264" fill="#2A2140" opacity=".55"/>
+<text x="64" y="694" font-family="Lora,Georgia,serif" font-size="22" font-weight="600" fill="#F3EEE2">More books</text>
+<text x="1216" y="694" font-family="Inter,system-ui,sans-serif" font-size="14" fill="#C9A227" text-anchor="end">See all books →</text>
+<rect x="64" y="718" width="118" height="172" rx="3" fill="#C9A227"/><rect x="64" y="718" width="6.5" height="172" fill="#C9A227" opacity=".85"/><rect x="82.9" y="821.2" width="59.0" height="2" fill="#C9A227"/><text x="82.9" y="762.7" font-family="Lora,Georgia,serif" font-size="14.8" font-weight="600" fill="#191428">Thornfall</text><text x="82.9" y="848.7" font-family="Inter,system-ui,sans-serif" font-size="7.7" letter-spacing="1.2" fill="#191428" opacity=".7">MARSH</text>
+<rect x="210" y="718" width="118" height="172" rx="3" fill="#4A3B6E"/><rect x="210" y="718" width="6.5" height="172" fill="#C9A227" opacity=".85"/><rect x="228.9" y="821.2" width="59.0" height="2" fill="#C9A227"/><text x="228.9" y="762.7" font-family="Lora,Georgia,serif" font-size="14.8" font-weight="600" fill="#F3EEE2">Ashroot</text><text x="228.9" y="848.7" font-family="Inter,system-ui,sans-serif" font-size="7.7" letter-spacing="1.2" fill="#F3EEE2" opacity=".7">MARSH</text>
+<rect x="356" y="718" width="118" height="172" rx="3" fill="#2A2140"/><rect x="356" y="718" width="6.5" height="172" fill="#C9A227" opacity=".85"/><rect x="374.9" y="821.2" width="59.0" height="2" fill="#C9A227"/><text x="374.9" y="762.7" font-family="Lora,Georgia,serif" font-size="14.8" font-weight="600" fill="#C9A227">Boxset</text><text x="374.9" y="848.7" font-family="Inter,system-ui,sans-serif" font-size="7.7" letter-spacing="1.2" fill="#C9A227" opacity=".7">MARSH</text>
+<rect x="542" y="718" width="674" height="172" rx="12" fill="#191428" stroke="#F3EEE2" stroke-opacity=".10"/>
+<text x="566" y="756" font-family="Lora,Georgia,serif" font-size="19" font-weight="600" fill="#F3EEE2">Get the free first chapter</text>
+<text x="566" y="782" font-family="Inter,system-ui,sans-serif" font-size="13" fill="#A79BC0">One email when there is a new book. Nothing else.</text>
+<rect x="566" y="802" width="524" height="42" rx="8" fill="#2A2140" opacity=".7"/>
+<text x="582" y="829" font-family="Inter,system-ui,sans-serif" font-size="13" fill="#A79BC0" opacity=".8">you@email.com</text>
+<rect x="1098" y="802" width="94" height="42" rx="8" fill="#C9A227"/>
+<text x="1145" y="829" font-family="Inter,system-ui,sans-serif" font-size="13" font-weight="600" fill="#191428" text-anchor="middle">Send it</text>
+</g>
+<rect x=".5" y=".5" width="1279" height="919" rx="18" fill="none" stroke="#F3EEE2" stroke-opacity=".12"/>
+</svg>

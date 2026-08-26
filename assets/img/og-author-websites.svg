@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630" role="img" aria-label="AuthorWings — author websites">
+  <defs>
+    <linearGradient id="og-bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0F2F2E"/><stop offset="1" stop-color="#0A2322"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#og-bg)"/>
+  <circle cx="1080" cy="540" r="260" fill="#C25937" opacity=".14"/>
+  <text x="80" y="120" font-family="Inter,system-ui,sans-serif" font-size="18" font-weight="700"
+        letter-spacing="4" fill="#C96C4D">AUTHORWINGS — AUTHOR WEBSITES</text>
+  <text x="80" y="250" font-family="Lora,Georgia,serif" font-size="72" font-weight="600" fill="#FFFDF9">A home for your books</text>
+  <text x="80" y="335" font-family="Lora,Georgia,serif" font-size="72" font-weight="600" fill="#FFFDF9">that works while you write.</text>
+  <text x="80" y="410" font-family="Inter,system-ui,sans-serif" font-size="24" fill="#B9C9C4">Designed, built, and launched in 3–4 weeks. You own everything.</text>
+  <rect x="80" y="470" width="230" height="62" rx="10" fill="#C25937"/>
+  <text x="195" y="509" font-family="Inter,system-ui,sans-serif" font-size="19" font-weight="600"
+        fill="#FFFDF9" text-anchor="middle">Book a free consult</text>
+  <text x="340" y="509" font-family="Inter,system-ui,sans-serif" font-size="17" fill="#8FA3A0">authorwings.com/author-websites</text>
+</svg>

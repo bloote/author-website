@@ -1,0 +1,28 @@
+/* Lora (headings) + Inter (body) — the same files authorwings.com self-hosts.
+   Included so the standalone page renders correctly with no network access.
+   On the live WordPress site GeneratePress already loads both; drop this file
+   and its <link> when pasting the page in. */
+
+@font-face {
+	font-family: "Lora";
+	font-style: normal;
+	font-weight: 400 700;
+	font-display: swap;
+	src: url("../fonts/lora-variable.woff2") format("woff2");
+}
+
+@font-face {
+	font-family: "Lora";
+	font-style: italic;
+	font-weight: 400 700;
+	font-display: swap;
+	src: url("../fonts/lora-italic-variable.woff2") format("woff2");
+}
+
+@font-face {
+	font-family: "Inter";
+	font-style: normal;
+	font-weight: 100 900;
+	font-display: swap;
+	src: url("../fonts/inter-variable.woff2") format("woff2");
+}

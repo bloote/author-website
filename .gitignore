@@ -1,0 +1,8 @@
+node_modules/
+package-lock.json
+.shot.mjs
+
+# 2x PNG copies are regenerable: node tools/rasterise.mjs
+# WebP and the OG card are kept, since the page's meta tag points at the latter.
+assets/img/raster/*.png
+!assets/img/raster/og-author-websites.png
