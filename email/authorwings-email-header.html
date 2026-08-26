@@ -8,10 +8,10 @@
 <meta name="supported-color-schemes" content="light" />
 <title>AuthorWings &mdash; Email Header</title>
 
-<!-- Slab face closest to the AuthorWings logo -->
-<link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@700;800&display=swap" rel="stylesheet" type="text/css" />
+<!-- Arvo Bold = the slab monogram · PT Serif Bold = the transitional wordmark -->
+<link href="https://fonts.googleapis.com/css2?family=Arvo:wght@700&family=PT+Serif:wght@700&display=swap" rel="stylesheet" type="text/css" />
 <style type="text/css">
-  @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@700;800&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Arvo:wght@700&family=PT+Serif:wght@700&display=swap');
   body { margin:0 !important; padding:0 !important; width:100% !important; -webkit-text-size-adjust:100%; -ms-text-size-adjust:100%; }
   table { border-collapse:collapse !important; mso-table-lspace:0pt; mso-table-rspace:0pt; }
   @media only screen and (max-width:620px) {
@@ -21,7 +21,8 @@
 </style>
 <!--[if mso]>
 <style type="text/css">
-  .aw-mark, .aw-word { font-family: Rockwell, Georgia, 'Times New Roman', serif !important; }
+  .aw-mark { font-family: Rockwell, Georgia, serif !important; }
+  .aw-word { font-family: 'PT Serif', Georgia, 'Times New Roman', serif !important; }
 </style>
 <![endif]-->
 </head>
@@ -41,32 +42,37 @@
 
         <!-- ============================================================
              AUTHORWINGS EMAIL HEADER
-             Bar #5A7264 · Disc #FFFFFF · "AW" #5A7264 · Wordmark #FFFFFF
-             Roboto Slab / Rockwell / Georgia · weight 800
+             Lockup scaled 0.375 from the 128px master (disc 128 -> 48px)
+             Bar #5C776B · Disc #FFFFFF · "AW" #5C776B · Wordmark #FFFFFF
+             Monogram: Arvo 700, 23px (0.48 x disc), tracking 0
+             Wordmark: PT Serif 700, 24px, set solid, no tracking
              ============================================================ -->
         <tr>
-          <td class="aw-head-pad" align="left" bgcolor="#5A7264"
-              style="background-color:#5A7264; padding:26px 34px;">
+          <td class="aw-head-pad" align="left" bgcolor="#5C776B"
+              style="background-color:#5C776B; padding:26px 34px;">
 
             <table role="presentation" cellpadding="0" cellspacing="0" border="0" style="border-collapse:collapse;">
               <tr>
                 <!-- "AW" monogram on the white disc -->
-                <td class="aw-mark" align="center" valign="middle" width="42" height="42" bgcolor="#FFFFFF"
-                    style="width:42px; height:42px; background-color:#FFFFFF;
-                           border-radius:21px; -webkit-border-radius:21px; -moz-border-radius:21px;
+                <td class="aw-mark" align="center" valign="middle" width="48" height="48" bgcolor="#FFFFFF"
+                    style="width:48px; height:48px; background-color:#FFFFFF;
+                           border-radius:24px; -webkit-border-radius:24px; -moz-border-radius:24px;
                            text-align:center; vertical-align:middle;
-                           font-family:'Roboto Slab', Rockwell, 'Bitter', Georgia, 'Times New Roman', serif;
-                           font-size:24px; font-weight:800; line-height:42px;
-                           color:#5A7264; letter-spacing:-1px; mso-line-height-rule:exactly;">
+                           font-family:'Arvo', 'Roboto Slab', 'Zilla Slab', Rockwell, Georgia, serif;
+                           font-size:23px; font-weight:700; line-height:48px;
+                           color:#5C776B; letter-spacing:0; mso-line-height-rule:exactly;">
                   AW
                 </td>
 
+                <!-- 9px optical gap (24px at master scale) -->
+                <td width="9" style="width:9px; font-size:1px; line-height:1px;">&nbsp;</td>
+
                 <!-- "AuthorWings" wordmark -->
-                <td class="aw-word" valign="middle" style="padding-left:12px; vertical-align:middle;">
-                  <span style="font-family:'Roboto Slab', Rockwell, 'Bitter', Georgia, 'Times New Roman', serif;
-                               font-size:22px; font-weight:800; line-height:28px;
-                               color:#FFFFFF; letter-spacing:-0.4px;
-                               mso-line-height-rule:exactly; white-space:nowrap;">AuthorWings</span>
+                <td class="aw-word" valign="middle" style="vertical-align:middle;">
+                  <span style="font-family:'PT Serif', 'Noto Serif', 'Source Serif 4', Georgia, 'Times New Roman', serif;
+                               font-size:24px; font-weight:700; line-height:30px;
+                               color:#FFFFFF; letter-spacing:0;
+                               mso-line-height-rule:exactly; white-space:nowrap;">AuthorWings<span style="font-size:11px; line-height:1;">&trade;</span></span>
                 </td>
               </tr>
             </table>
