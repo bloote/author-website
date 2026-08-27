@@ -9,13 +9,13 @@
 <title>Looking Forward to Speaking with You Tomorrow</title>
 
 <style type="text/css">
-  /* Zilla Slab Bold and PT Serif Bold, subset to just the logo's letters and
+  /* Bevan and PT Serif Bold, subset to just the logo's letters and
      embedded here, so the mark renders correctly with no network call. */
   @font-face {
     font-family: 'AW Slab';
     font-style: normal;
-    font-weight: 700;
-    src: url(data:font/woff2;charset=utf-8;base64,d09GMgABAAAAAAJoAA0AAAAABMAAAAIWAAEAgwAAAAAAAAAAAAAAAAAAAAAAAAAAGxAcNgZgADwRCAqBKIEoATYCJAMMCwgABCAFgx4HIBvVAyieA+7sEJtNLGKbs5hn/NjnMh7+W3u9b2bzQyjRJfrbEHDZuNoaV8nHI+hWxkeY6rVoTSdAlw8UgPDSzX5RuFetq0WNLGsMGN/+R6hVWxrp/3MzzcKEPlNiYyxa4AskkQTbIgH1fOwbZidytjOJst8xt+QemUYFGjRpAfz4qnzG6cb2foRe7dE64u/Twhrin8zwJuIZoQSAIg2kNzWkd0nDM6oSt6r+AQtfyPZ6fw+i1RjKfmWa73wVQEB8TRr6KUjI6GIQ6GI0CCoKIZkwVIJeqPzkhQCEKGkFGVSQUQUzAApAEh1FeKsSjbui3w7SjsTln9hnn/kDMS5GxbCYPHGzhoOepdXeZMoPqvlRU0GgoeeLUfobVClOph7MzQ8Y6QjOvwmaOj4zHT2feQ8qJgOVT5eYvSV5+XKZVGUeqGokAATC002EzE+5yv9nznfw9+5wAODfV31CuSrlXdaEigSC/LZE0x8FWYmAH8npl/V0qTnfKgRyjCMVEDBW65BBFPVYhgJCl3ZI6pxDtm8ZCr2+oMai339c0R3J6kgee8iKJctYtFzZchRJF63fsgXROkj7VqxbNyNaI0m1ad4MtkLaNCqJfTR1Vi1p3bx+ezwktmzBFtUCboIFi4P1yZ5S0aFGm1tqaRE9OWgB8a4cjpYjU46yEaKYhbFFM1RMWrZiE4uWbFuOTIVSfGMDzTANgFdeFQAAAA==) format('woff2');
+    font-weight: 400;
+    src: url(data:font/woff2;charset=utf-8;base64,d09GMgABAAAAAAKQAA4AAAAABRAAAAI+AAIZmgAAAAAAAAAAAAAAAAAAAAAAAAAAGhYbIBwqBmAAPBEICoEogRwBNgIkAwwLCAAEIAWDQgcgGwcEERWU2QA/E6oTcdjVl2CSkxPUgGf+JTd8x46H//Zr983M/7uISNJkIXkkavLGIUQLUbyzmVaIpMhZn2ec/QEoxWhLW4MOjpDard5bOjAkIYFJYLqSzF6t7YFUNuKSPOP9RF/2524f6YUY8Xlv6WYT3/smE12X2HWSXDjKegEmmNg8kJ4fF2AEEWF2rpnhydRdWa0k0A0IIQkh0GnarNhxe3ygK9D+B4DDFyxJ07jXqYXZkDPnQanGo11FtUFewlfvJXVeTw2AgOe5uSopxBQ2BTucP+nQ+ZCzAAFllWoG8zISMoZlgWHFEmpFSDYF2/+AaP+n/ocEIAR6Dh7IoEbGCjYBFEASgyQJi8SqYJIEZSwin8QKsH0sYjknwivfrhKZiRWcsuRcjkdklnKTErjhmPDm9fCOLGM/Fn4IfyvEdXrCqYDIrz7F7Fg3RG61c8+iE2+bqNDaX2/4Lfxoj3Du3RzdAATSREfn8II2mWd/pfPogN/y1iDwN/uY8X/16+JIGb2oJRD8XNazy2AfJyMIZe2cR+zV13o7Gw0JZKdoDlAEAMgCDSdIojBAizVCpxaSXo0fZKt+KCb9UdkL+l+tTca+PVT6ChzDImBsaGQO3FkK2FFemAI4C5CnCARsVYiFggg0WYSUorWBAcMhVoXrE1BuwEDIyCgaKpBoMC8+If2Wf/FKMSoZJhjrGxka2igob2RzYqgXLioC9NkOIgcZndtVQIjGXqsiyylQvPdlpG+pb6I1vWwosv+4MQA=) format('woff2');
   }
   @font-face {
     font-family: 'AW Serif';
@@ -62,7 +62,9 @@
         <!-- ============================================================
              AUTHORWINGS EMAIL HEADER
              Bar #5C776B - Disc #FFFFFF - "AW" #5C776B - Wordmark #FFFFFF
-             Monogram: Zilla Slab 700, 24px, tracking -1px, in the 44px disc
+             Monogram: Bevan, 18px, tracking -1px, in the 44px disc.
+                       Bevan is a single-weight face, so weight stays 400:
+                       asking for 700 makes clients synthesise a fake bold.
              Wordmark: PT Serif 700, 24px, set solid, no tracking
              Trademark: 13px, raised 7px so its top meets the cap height
              Both faces are embedded above; Rockwell / PT Serif / Georgia
@@ -79,8 +81,8 @@
                     style="width:44px; height:44px; background-color:#FFFFFF;
                            border-radius:22px; -webkit-border-radius:22px; -moz-border-radius:22px;
                            text-align:center; vertical-align:middle;
-                           font-family:'AW Slab', 'Zilla Slab', Rockwell, Georgia, serif;
-                           font-size:24px; font-weight:700; line-height:44px;
+                           font-family:'AW Slab', Bevan, Rockwell, Georgia, serif;
+                           font-size:18px; font-weight:400; line-height:44px;
                            color:#5C776B; letter-spacing:-1px; text-indent:-1px;
                            mso-line-height-rule:exactly;">
                   AW
@@ -181,7 +183,7 @@
               &mdash; crafting and publishing books authors are proud of.
             </p>
 
-            <p style="margin:0 0 10px 0; font-family:Georgia,'Times New Roman',Times,serif; font-size:11px; line-height:18px; color:#8A8A8A;">
+            <p style="margin:0 0 10px 0; font-family:Arial,Helvetica,sans-serif; font-size:11px; line-height:18px; color:#8A8A8A;">
               <a href="https://authorwings.com/" style="color:#8A8A8A; text-decoration:none;">authorwings.com</a>
               &nbsp;&middot;&nbsp;
               <a href="mailto:hello@authorwings.com" style="color:#8A8A8A; text-decoration:none;">hello@authorwings.com</a>
