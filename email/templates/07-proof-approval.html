@@ -1,0 +1,245 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<meta name="x-apple-disable-message-reformatting" />
+<meta name="color-scheme" content="light" />
+<meta name="supported-color-schemes" content="light" />
+<title>Your {{ cover }} proof is ready</title>
+<style type="text/css">
+  /* Zilla Slab Bold and PT Serif Bold, subset to just the logo's letters and
+     embedded here, so the mark renders correctly with no network call. */
+  @font-face {
+    font-family: 'AW Slab';
+    font-style: normal;
+    font-weight: 700;
+    src: url(data:font/woff2;charset=utf-8;base64,d09GMgABAAAAAAJoAA0AAAAABMAAAAIWAAEAgwAAAAAAAAAAAAAAAAAAAAAAAAAAGxAcNgZgADwRCAqBKIEoATYCJAMMCwgABCAFgx4HIBvVAyieA+7sEJtNLGKbs5hn/NjnMh7+W3u9b2bzQyjRJfrbEHDZuNoaV8nHI+hWxkeY6rVoTSdAlw8UgPDSzX5RuFetq0WNLGsMGN/+R6hVWxrp/3MzzcKEPlNiYyxa4AskkQTbIgH1fOwbZidytjOJst8xt+QemUYFGjRpAfz4qnzG6cb2foRe7dE64u/Twhrin8zwJuIZoQSAIg2kNzWkd0nDM6oSt6r+AQtfyPZ6fw+i1RjKfmWa73wVQEB8TRr6KUjI6GIQ6GI0CCoKIZkwVIJeqPzkhQCEKGkFGVSQUQUzAApAEh1FeKsSjbui3w7SjsTln9hnn/kDMS5GxbCYPHGzhoOepdXeZMoPqvlRU0GgoeeLUfobVClOph7MzQ8Y6QjOvwmaOj4zHT2feQ8qJgOVT5eYvSV5+XKZVGUeqGokAATC002EzE+5yv9nznfw9+5wAODfV31CuSrlXdaEigSC/LZE0x8FWYmAH8npl/V0qTnfKgRyjCMVEDBW65BBFPVYhgJCl3ZI6pxDtm8ZCr2+oMai339c0R3J6kgee8iKJctYtFzZchRJF63fsgXROkj7VqxbNyNaI0m1ad4MtkLaNCqJfTR1Vi1p3bx+ezwktmzBFtUCboIFi4P1yZ5S0aFGm1tqaRE9OWgB8a4cjpYjU46yEaKYhbFFM1RMWrZiE4uWbFuOTIVSfGMDzTANgFdeFQAAAA==) format('woff2');
+  }
+  @font-face {
+    font-family: 'AW Serif';
+    font-style: normal;
+    font-weight: 700;
+    src: url(data:font/woff2;charset=utf-8;base64,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) format('woff2');
+  }
+
+  /* Every visual style is also inline below, so the email survives clients
+     that strip this block. What lives here is only what cannot be inlined:
+     the logo faces above and the mobile rules underneath. */
+  body { margin:0 !important; padding:0 !important; width:100% !important; -webkit-text-size-adjust:100%; -ms-text-size-adjust:100%; }
+  table { border-collapse:collapse !important; mso-table-lspace:0pt; mso-table-rspace:0pt; }
+  @media only screen and (max-width:620px) {
+    .aw-card { width:100% !important; }
+    .aw-pad  { padding-left:22px !important; padding-right:22px !important; }
+    .aw-h1   { font-size:22px !important; line-height:29px !important; }
+    .aw-btn a { display:block !important; text-align:center !important; }
+    .aw-num  { font-size:26px !important; }
+  }
+</style>
+<!--[if mso]>
+<style type="text/css">
+  .aw-mark { font-family: Rockwell, Georgia, serif !important; }
+  .aw-word { font-family: 'PT Serif', Georgia, serif !important; }
+</style>
+<![endif]-->
+</head>
+<body style="margin:0; padding:0; background-color:#FFFFFF;">
+
+<div style="display:none; font-size:1px; line-height:1px; max-height:0; max-width:0; opacity:0; overflow:hidden; mso-hide:all; font-family:Georgia,'Times New Roman',Times,serif;">
+  Your {{ cover }} proof is ready to approve.
+  &#847;&zwnj;&nbsp;&#847;&zwnj;&nbsp;&#847;&zwnj;&nbsp;&#847;&zwnj;&nbsp;&#847;&zwnj;&nbsp;&#847;&zwnj;&nbsp;&#847;&zwnj;&nbsp;&#847;&zwnj;&nbsp;
+</div>
+
+<table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="background-color:#FFFFFF;">
+  <tr>
+    <td align="center" style="padding:24px 12px 32px 12px;">
+      <!--[if mso]><table role="presentation" width="600" cellpadding="0" cellspacing="0" border="0"><tr><td><![endif]-->
+      <table role="presentation" class="aw-card" width="600" cellpadding="0" cellspacing="0" border="0"
+             style="width:600px; max-width:600px; background-color:#FFFFFF; border:1px solid #E5DFD4;">
+
+        <!-- HEADER - lockup ratios measured from the AuthorWings logo file -->
+        <tr>
+          <td class="aw-pad" align="left" bgcolor="#5D7A6C" style="background-color:#5D7A6C; padding:20px 34px;">
+            <table role="presentation" cellpadding="0" cellspacing="0" border="0" style="border-collapse:collapse;">
+              <tr>
+                <td class="aw-mark" align="center" valign="middle" width="44" height="44" bgcolor="#F7F6F0"
+                    style="width:44px; height:44px; background-color:#F7F6F0;
+                           border-radius:22px; -webkit-border-radius:22px; -moz-border-radius:22px;
+                           text-align:center; vertical-align:middle;
+                           font-family:'AW Slab', 'Zilla Slab', Rockwell, Georgia, serif;
+                           font-size:24px; font-weight:700; line-height:44px;
+                           color:#5D7A6C; letter-spacing:-0.8px; text-indent:-0.8px;
+                           mso-line-height-rule:exactly;">AW</td>
+                <td width="15" style="width:15px; min-width:15px; font-size:1px; line-height:1px;">&#8203;</td>
+                <td class="aw-word" valign="middle" style="vertical-align:middle;">
+                  <span style="font-family:'AW Serif', 'PT Serif', Georgia, serif;
+                               font-size:24px; font-weight:700; line-height:30px; color:#F7F6F0;
+                               mso-line-height-rule:exactly; white-space:nowrap;">AuthorWings<span style="font-size:14px; line-height:1; vertical-align:7px; mso-text-raise:7px;">&trade;</span></span>
+                </td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+
+        <tr>
+          <td class="aw-pad" align="left" style="padding:34px 34px 0 34px;">
+            <p style="margin:0 0 10px 0; font-family:Arial,Helvetica,sans-serif; font-size:11px; line-height:16px; letter-spacing:1.4px;
+                      text-transform:uppercase; color:#5D7A6C; font-weight:bold;">APPROVAL NEEDED</p>
+            <h1 class="aw-h1" style="margin:0 0 14px 0; font-family:Georgia,'Times New Roman',Times,serif; font-size:26px; line-height:33px; font-weight:bold; color:#2B2E26;
+                       mso-line-height-rule:exactly;">Your {{ cover }} proof is ready</h1>
+            <p style="margin:0 0 26px 0; font-family:Georgia,'Times New Roman',Times,serif; font-size:16px; line-height:26px; color:#6B6B6B; mso-line-height-rule:exactly;">Take your time with this one. Once you approve, this file goes to print and changes after that cost money and weeks.</p>
+          </td>
+        </tr>
+
+        <tr>
+          <td class="aw-pad" align="left" style="padding:0 34px 24px 34px;">
+            <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0"
+                   style="border-top:1px solid #E5DFD4; border-bottom:1px solid #E5DFD4;">
+              <tr>
+                <td style="padding:12px 0;">
+                  <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0">
+                    <tr>
+                      <td width="40%" style="padding:5px 0; font-family:Arial,Helvetica,sans-serif; font-size:12px; line-height:19px; color:#6B6B6B;">Book title</td>
+                      <td style="padding:5px 0; font-family:Arial,Helvetica,sans-serif; font-size:13px; line-height:19px; color:#2B2E26; font-weight:bold;">{{ Book title }}</td>
+                    </tr>
+                    <tr>
+                      <td width="40%" style="padding:5px 0; font-family:Arial,Helvetica,sans-serif; font-size:12px; line-height:19px; color:#6B6B6B;">Proof version</td>
+                      <td style="padding:5px 0; font-family:Arial,Helvetica,sans-serif; font-size:13px; line-height:19px; color:#2B2E26; font-weight:bold;">{{ v0 }}</td>
+                    </tr>
+                    <tr>
+                      <td width="40%" style="padding:5px 0; font-family:Arial,Helvetica,sans-serif; font-size:12px; line-height:19px; color:#6B6B6B;">Trim size</td>
+                      <td style="padding:5px 0; font-family:Arial,Helvetica,sans-serif; font-size:13px; line-height:19px; color:#2B2E26; font-weight:bold;">{{ 6" x 9" }}</td>
+                    </tr>
+                    <tr>
+                      <td width="40%" style="padding:5px 0; font-family:Arial,Helvetica,sans-serif; font-size:12px; line-height:19px; color:#6B6B6B;">Please respond by</td>
+                      <td style="padding:5px 0; font-family:Arial,Helvetica,sans-serif; font-size:13px; line-height:19px; color:#2B2E26; font-weight:bold;">{{ 00 Month 2026 }}</td>
+                    </tr>
+                  </table>
+                </td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+
+        <tr>
+          <td class="aw-pad" align="left" style="padding:0 34px;">
+            <p style="margin:0 0 26px 0; font-family:Georgia,'Times New Roman',Times,serif; font-size:15px; line-height:25px; color:#2B2E26; mso-line-height-rule:exactly;">Please check these against the proof, since they are the things most often caught late:</p>
+          </td>
+        </tr>
+
+        <tr>
+          <td class="aw-pad" align="left" style="padding:0 34px 20px 34px;">
+            <p style="margin:0 0 14px 0; font-family:Arial,Helvetica,sans-serif; font-size:10px; line-height:15px; letter-spacing:1.3px;
+                      text-transform:uppercase; color:#5D7A6C; font-weight:bold;">WORTH CHECKING TWICE</p>
+            <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0">
+              <tr>
+                <td width="30" valign="top" style="padding:0 12px 16px 0;">
+                  <table role="presentation" cellpadding="0" cellspacing="0" border="0"><tr>
+                    <td width="22" height="22" align="center" valign="middle" bgcolor="#5D7A6C"
+                        style="width:22px; height:22px; background-color:#5D7A6C; border:1px solid #5D7A6C;
+                               border-radius:11px; -webkit-border-radius:11px;
+                               font-family:Arial,Helvetica,sans-serif; font-size:11px; line-height:22px; color:#F7F6F0; text-align:center;">&#9679;</td>
+                  </tr></table>
+                </td>
+                <td valign="top" style="padding:0 0 16px 0;">
+                  <p style="margin:0; font-family:Georgia,'Times New Roman',Times,serif; font-size:15px; line-height:22px; color:#2B2E26; font-weight:bold;">Your name and the title</p>
+                  <p style="margin:0; font-family:Arial,Helvetica,sans-serif; font-size:12px; line-height:19px; color:#6B6B6B;">Exactly as you want them printed, including any subtitle</p>
+                </td>
+              </tr>
+              <tr>
+                <td width="30" valign="top" style="padding:0 12px 16px 0;">
+                  <table role="presentation" cellpadding="0" cellspacing="0" border="0"><tr>
+                    <td width="22" height="22" align="center" valign="middle" bgcolor="#5D7A6C"
+                        style="width:22px; height:22px; background-color:#5D7A6C; border:1px solid #5D7A6C;
+                               border-radius:11px; -webkit-border-radius:11px;
+                               font-family:Arial,Helvetica,sans-serif; font-size:11px; line-height:22px; color:#F7F6F0; text-align:center;">&#9679;</td>
+                  </tr></table>
+                </td>
+                <td valign="top" style="padding:0 0 16px 0;">
+                  <p style="margin:0; font-family:Georgia,'Times New Roman',Times,serif; font-size:15px; line-height:22px; color:#2B2E26; font-weight:bold;">Spine text and back-cover copy</p>
+                  <p style="margin:0; font-family:Arial,Helvetica,sans-serif; font-size:12px; line-height:19px; color:#6B6B6B;">Blurb, author bio, ISBN placement</p>
+                </td>
+              </tr>
+              <tr>
+                <td width="30" valign="top" style="padding:0 12px 16px 0;">
+                  <table role="presentation" cellpadding="0" cellspacing="0" border="0"><tr>
+                    <td width="22" height="22" align="center" valign="middle" bgcolor="#5D7A6C"
+                        style="width:22px; height:22px; background-color:#5D7A6C; border:1px solid #5D7A6C;
+                               border-radius:11px; -webkit-border-radius:11px;
+                               font-family:Arial,Helvetica,sans-serif; font-size:11px; line-height:22px; color:#F7F6F0; text-align:center;">&#9679;</td>
+                  </tr></table>
+                </td>
+                <td valign="top" style="padding:0 0 16px 0;">
+                  <p style="margin:0; font-family:Georgia,'Times New Roman',Times,serif; font-size:15px; line-height:22px; color:#2B2E26; font-weight:bold;">Anything factual</p>
+                  <p style="margin:0; font-family:Arial,Helvetica,sans-serif; font-size:12px; line-height:19px; color:#6B6B6B;">Dates, names, dedication, acknowledgements</p>
+                </td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+
+        <tr>
+          <td class="aw-pad" align="left" style="padding:0 34px 30px 34px;">
+            <table role="presentation" class="aw-btn" cellpadding="0" cellspacing="0" border="0">
+              <tr>
+                <td align="center" bgcolor="#5D7A6C" style="background-color:#5D7A6C; border-radius:3px; -webkit-border-radius:3px;">
+                  <a href="{{ https://authorwings.com/approve/... }}" style="display:inline-block; padding:14px 30px; font-family:Arial,Helvetica,sans-serif; font-size:14px; line-height:18px;
+                     font-weight:bold; letter-spacing:0.3px; color:#FFFFFF; text-decoration:none; border-radius:3px;">Approve this proof</a>
+                </td>
+              </tr>
+              <tr>
+                <td style="padding:12px 0 0 0; font-family:Arial,Helvetica,sans-serif; font-size:13px; line-height:20px; color:#6B6B6B;">
+                  or <a href="mailto:{{ name@authorwings.com }}" style="color:#5D7A6C;">send changes instead</a>
+                </td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+
+        <tr>
+          <td class="aw-pad" align="left" style="padding:0 34px 26px 34px;">
+            <p style="margin:0; font-family:Arial,Helvetica,sans-serif; font-size:12px; line-height:20px; color:#6B6B6B;">Approving is a final sign-off for print. If you are unsure about anything at all, send the changes rather than approving; there is no charge for revisions at this stage.</p>
+          </td>
+        </tr>
+
+        <tr>
+          <td class="aw-pad" align="left" style="padding:0 34px 30px 34px;">
+            <p style="margin:0 0 14px 0; font-family:Georgia,'Times New Roman',Times,serif; font-size:15px; line-height:25px; color:#2B2E26;">{{ Sign-off }}</p>
+            <p style="margin:0; font-family:Georgia,'Times New Roman',Times,serif; font-size:15px; line-height:22px; color:#2B2E26; font-weight:bold;">{{ Sender name }}</p>
+            <p style="margin:0 0 2px 0; font-family:Georgia,'Times New Roman',Times,serif; font-size:14px; line-height:21px; color:#6B6B6B;">{{ Job title }} &nbsp;|&nbsp; AuthorWings</p>
+            <p style="margin:0; font-family:Georgia,'Times New Roman',Times,serif; font-size:14px; line-height:21px;">
+              <a href="mailto:{{ name@authorwings.com }}" style="color:#5D7A6C; text-decoration:none;">{{ name@authorwings.com }}</a>
+            </p>
+          </td>
+        </tr>
+
+        <tr>
+          <td class="aw-pad" style="padding:0 34px;">
+            <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0">
+              <tr><td height="1" style="height:1px; line-height:1px; font-size:1px; background-color:#E5DFD4;">&#8203;</td></tr>
+            </table>
+          </td>
+        </tr>
+        <tr>
+          <td class="aw-pad" align="left" style="padding:18px 34px 24px 34px;">
+            <p style="margin:0 0 7px 0; font-family:Georgia,'Times New Roman',Times,serif; font-size:12px; line-height:19px; color:#3A3A3A;">
+              <span class="aw-word" style="font-family:'AW Serif','PT Serif',Georgia,serif; font-weight:bold;">AuthorWings</span>
+              &mdash; crafting and publishing books authors are proud of.
+            </p>
+            <p style="margin:0; font-family:Arial,Helvetica,sans-serif; font-size:11px; line-height:18px; color:#8A8A8A;">
+              <a href="https://authorwings.com/" style="color:#8A8A8A; text-decoration:none;">authorwings.com</a>
+              &nbsp;&middot;&nbsp;
+              <a href="mailto:hello@authorwings.com" style="color:#8A8A8A; text-decoration:none;">hello@authorwings.com</a>
+              &nbsp;&middot;&nbsp;
+              <a href="tel:+17324546871" style="color:#8A8A8A; text-decoration:none;">+1 (732) 454-6871</a>
+            </p>
+          </td>
+        </tr>
+      </table>
+
+      <!--[if mso]></td></tr></table><![endif]-->
+    </td>
+  </tr>
+</table>
+</body>
+</html>
